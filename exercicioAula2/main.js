@@ -69,4 +69,14 @@ function celsiusParaFahrenheit(celsius){
     return celsius*(9/5) + 32
 }
 
+function celsiusParaFahrenheit(celsius){
+    return celsius*(9/5) + 32
+}
+
+function fahrenheitParaCelsius(fahrenheit){
+    return (fahrenheit-32)*(5/9)
+}
+
 console.log(celsiusParaFahrenheit(20))
+
+console.log(fahrenheitParaCelsius(68))
