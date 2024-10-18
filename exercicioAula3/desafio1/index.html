@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fale Conosco</h1>
+
+    <form action="">
+
+        <div class="formulario">
+            <label for="">
+            Nome: <input type="text" id="userNome" placeholder="Nome" oninput="verificarCampos()">
+            </label>
+            
+            <label for="">
+            Email: <input type="email" id="userEmail" placeholder="exemplo@exemplo.com" oninput="verificarCampos()">
+            </label>
+            
+            <label for="">
+            Mensagem: <textarea name="" id="userMensagem" placeholder="Mensagem (mínimon: 20 caracteres)" oninput="verificarCampos(); totalCaractere()"></textarea>
+            <p><span id="totalCaractere">0</span>/500</p>
+            </label>
+        </div>
+        
+        <input type="button" value="Enviar" id="btnEnviar" disabled onclick="bntBotao()">
+        <script src="main.js" defer></script>
+    </form>
+
+
+    
+</body>
+</html>
