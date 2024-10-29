@@ -30,6 +30,26 @@ function validarLogin(){
         return false
     }
     
+/*
+    fetch('/usuario.json',{
+        method: 'POST',
+        headers:{
+            'content-Type': 'application/json'
+        };
+        body: JSON.stringify({usuario, senha})
+    })
+    .then(response =>{
+        if(response.ok){
+            (window.location.herf = 'home.html')
+        }else{
+            alert('Login inválido')
+        })
+        .catch(erro =>{
+            console.error('Erro ao fazer logi:', error)
+        })
+    })
+
+    */
 
     alert("Funciona!")
     console.log("Deu certo!")
